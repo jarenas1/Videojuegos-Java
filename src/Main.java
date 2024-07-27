@@ -35,7 +35,7 @@ public class Main {
         }
 
         //MOFICIAR LA CANTIDAD DE JUGARDORES DE 2 JUEGOS
-
+        System.out.println("MODIFICAR");
         for (int i = 0; i<juegos.size(); i++){
             if (i == 0 || i == 1){
                 juegos.get(i).setPlayers(100);
@@ -44,7 +44,7 @@ public class Main {
         }
 
         //MOSTRAR LOS VIDEJUEGOS DE PS5
-
+        System.out.println("JUEGOS DE PS5");
         for(Game game : juegos){
             if (game.getConsole().equals("PS5")){
                 System.out.println();
